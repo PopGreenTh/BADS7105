@@ -2,15 +2,13 @@
 skinparam actorStyle awesome
 
 actor Worker
-usecase "Recharge myself after work at home" as JobStatement
-usecase "...
--- Functional Outcome --" as FunctionalOutcome
-' usecase "...
-' -- Emotional Outcome --" as EmotionalOutcome
+usecase "Recharge after work at home" as JobStatement
+usecase "...\n-- Functional Outcome --" as FunctionalOutcome
+usecase "...\n-- Emotional Outcome --" as EmotionalOutcome
 
 
-' Worker --> JobStatement
-' FunctionalOutcome --> JobStatement
-' EmotionalOutcome --> JobStatement
+Worker --> JobStatement
+FunctionalOutcome -u-> JobStatement
+EmotionalOutcome -u-> JobStatement
 
 @endumle
