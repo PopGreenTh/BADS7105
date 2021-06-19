@@ -4,5 +4,8 @@
 			"path": "."
 		}
 	],
-	"settings": {}
+	"settings": {
+		"python.pythonPath": "D:\\py\\envs\\7105\\python.exe",
+		"jupyter.jupyterServerType": "local"
+	}
 }
